@@ -345,6 +345,8 @@ img {
   color: var(--accent-color);
   background-color: #f4f4fd;
   display: inline-block;
+  padding: 12px 24px;
+  border-radius: 4px;
 }
 
 .projects-link {
@@ -371,7 +373,7 @@ img {
 
 .projects {
   padding-top: 96px;
-  padding-bottom: 72px;
+  padding-bottom: 120px;
   background-color: teal;
 }
 
@@ -399,10 +401,15 @@ img {
 }
 
 .projects-subtittle {
-  margin: 32px 54px 8px 16px;
-}
+  margin-bottom: 8px; 
+} 
 
-.projects-item-text {
-  margin-left: 16px;
-  margin-bottom: 32px;
+/* box project */
+
+.box-project {
+  border-left: 0.5px solid #F4F4FD;
+  border-right: 0.5px solid #F4F4FD;
+  border-bottom: 0.5px solid #F4F4FD;
+  padding:  32px 0 32px 16px;
+
 }
