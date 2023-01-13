@@ -72,14 +72,28 @@ img {
 }
 
 /* Header */
+
 .container {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+
+  outline: 2px solid black;
+}
+
+.nav-flex {
   display: flex;
   align-items: center;
-
   outline: 2px solid teal;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.address {
+  margin-left: auto;
 }
 
 .header {
@@ -159,7 +173,6 @@ img {
 }
 
 .header-list .header-item {
-  outline: 2px solid teal;
 }
 
 .header-list .header-item:not(:last-child) {
@@ -180,23 +193,7 @@ img {
   margin-right: 40px;
 }
 
-/* .container{
-  display: flex;
-  align-items: center;
-}
-
-
-.header-navigation {
-  display: flex;
-  align-items: center;
-} 
-
 /* Section Our qualities */
-
-.header-navigation {
-  display: flex;
-  align-items: center;
-} 
 
 .qualities-tittle {
   font-size: 20px;
@@ -251,7 +248,6 @@ img {
   margin-right: 24px;
 }
 
-
 /* Section Team */
 
 .team {
@@ -300,8 +296,6 @@ img {
 .team-list h3 {
   margin-bottom: 8px;
 }
-
-
 
 /* Footer */
 
@@ -378,8 +372,37 @@ img {
 .projects {
   padding-top: 96px;
   padding-bottom: 72px;
+  background-color: teal;
 }
 
 .projects-list {
   margin-bottom: 72px;
+  display: flex;
+  justify-content: center;
+}
+
+.projects-list .first-item:not(:last-child) {
+  margin-right: 24px;
+}
+
+/* Flex-projects */
+
+.flex-projects {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -24px -12px;
+}
+
+.projects-item {
+  width: 360px;
+  margin: 24px 12px;
+}
+
+.projects-subtittle {
+  margin: 32px 54px 8px 16px;
+}
+
+.projects-item-text {
+  margin-left: 16px;
+  margin-bottom: 32px;
 }
